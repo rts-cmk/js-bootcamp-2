@@ -5,7 +5,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Document</title>
+	<link rel="preload" href="/css/variables.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
 	<link rel="stylesheet" href="./css/style.css">
+	<style>
+		@import 'some.css';
+		@import 'layout.css';
+		@import 'atoms.css';
+		@import 'molecules.css';
+		@import 'organisms.css';
+	</style>
 </head>
 <body>
 	<a href="#content" class="sr-hidden">Skip to content</a>
